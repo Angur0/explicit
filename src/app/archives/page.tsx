@@ -209,7 +209,7 @@ export default function ArchivesPage() {
                                                             <AchievementDialog title={item.title} date={item.date} description={item.description} links={item.links} />
                                                             {item.date && (
                                                                 <div className="text-xs text-muted-foreground mt-1">
-                                                                    {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                                                                    {formatAchievementDate(item.date, { month: 'short', day: 'numeric' })}
                                                                 </div>
                                                             )}
                                                         </div>
@@ -407,16 +407,16 @@ function AchievementDialog({ title, date, description, links }: { title: string;
                     {title}
                 </button>
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent className="max-h-[80vh] overflow-y-auto sm:max-w-2xl">
                 <DialogHeader>
                     <DialogTitle>{title}</DialogTitle>
                     {date && (
                         <DialogDescription>
-                            {new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                            {formatAchievementDate(date, { year: 'numeric', month: 'long', day: 'numeric' })}
                         </DialogDescription>
                     )}
                 </DialogHeader>
-                {description && <p className="text-sm text-muted-foreground">{description}</p>}
+                {description && <p className="text-sm text-muted-foreground whitespace-pre-line">{description}</p>}
                 {links && links.length > 0 && (
                     <div className="mt-4 space-x-3">
                         {links.map((l, i) => (
@@ -429,4 +429,12 @@ function AchievementDialog({ title, date, description, links }: { title: string;
             </DialogContent>
         </Dialog>
     );
+}
+
+function formatAchievementDate(date: string, options: Intl.DateTimeFormatOptions) {
+    const parsed = /^\d{4}-\d{2}-\d{2}$/.test(date)
+        ? new Date(`${date}T00:00:00`)
+        : new Date(date);
+
+    return Number.isNaN(parsed.getTime()) ? date : parsed.toLocaleDateString('en-US', options);
 }

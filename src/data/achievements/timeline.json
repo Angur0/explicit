@@ -1,6 +1,41 @@
 {
   "years": [
     {
+      "year": "2026",
+      "items": [
+        {
+          "title": "3rd Place - SiKAPtala Hackathon Competition",
+          "date": "2026-05-11",
+          "description": "Team: Garcia, Kent D.; Santiago, Jhayciel D.; Reyes, Denver R.; Dela Cruz, Jan Emmanuel A.; Valera, Rhaine Cyrel M.; De Guzman, Louis Andrei B."
+        },
+        {
+          "title": "JuanaFlix: A Short Film Festival",
+          "date": "2026-03-31",
+          "description": "Full cast and crew:\nReyes, Denver R.: Director, Writer, Video Editor, Cinematographer, Voice Actor, Poster Designer, Motion Graphics Artist\nSantiago, Jhayciel D.: Writer, Assistant Director, Poster Designer, Trailer Video Editor\nFlordeliza, Tomas Josh: Assistant Director, Cinematographer, Actor, Poster Designer\nDe Guzman, Louis Andrei B.: Motion Graphics Artist\nDamian, MJ: Cinematographer, Actor, Video Organizer\nOrpesa, Jefferson: Cinematographer, Actor\nCasilan, Mark Timothy: Production Designer\nAlba, Sean Dave: Production Designer, Voice Actor\nBuerano, Sean Kurvie: Production Designer, Actor\nManaloto, Neil Emmiel: Production Designer\nBerdin, Jemira: Actress\nBituin, Shiraine: Actress\nDaguplo, Erica: Actress\nBarte, Roxanne: Actress\nAbalo, Joshua: Actor\nSumile, Alleah Mae: Actress, Poster Designer\nPaigan, Shiela Mae: Actress\nJawili, Arvelyn: Actress\nCalcita, Austin John: Actor, Trailer Image Editor\nArabaca, Irish May: Actress\nIbias, Carl Ivan: Actor\nValera, Rhaine Cyrel: Actor\nCueto, Daniel: Voice Actor\nImperial, Aaron Paul: Voice Actor\nCallos, Kathleen Mae: Voice Actor\nSandoval, Cellyn: Voice Actor"
+        },
+        {
+          "title": "1st Runner Up - Code Spark 2026 Hackathon Competition",
+          "date": "2026-03-19",
+          "description": "March 19-21, 2026. Team: Santiago, Jhayciel D.; Reyes, Denver R.; Dela Cruz, Jan Emmanuel A.; Valera, Rhaine Cyrel M."
+        },
+        {
+          "title": "1st Place - Code and Canvas 2026",
+          "date": "2026-03-19",
+          "description": "Awardees: Reyes, Denver R.; Dela Cruz, Jan Emmanuel A."
+        },
+        {
+          "title": "5th Place - Code and Canvas 2026",
+          "date": "2026-03-19",
+          "description": "Awardee: Calcita, Austin John M."
+        },
+        {
+          "title": "4th Place - Sampaguita Blooms 2.0",
+          "date": "2026-05",
+          "description": "Awardee: Calcita, Austin John M."
+        }
+      ]
+    },
+    {
       "year": "2025",
       "items": [
         {

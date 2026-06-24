@@ -191,156 +191,112 @@
   ],
   "events": [
     {
-      "id": "annual-hackathon-2024",
-      "slug": "annual-hackathon-2024",
-      "title": "Annual Hackathon 2024",
-      "date": "2024-11-15T09:00:00Z",
-      "type": "Competition",
-      "status": "upcoming",
-      "image": "/images/event-hackathon.png",
-      "aiHint": "coding hackathon",
-      "location": "Main Auditorium",
-      "limit": 50,
-      "description": "Join our annual 24-hour coding challenge! Form a team, build an innovative project, and compete for amazing prizes. This year's theme is 'AI for Social Good'. All skill levels are welcome.",
+      "title": "Beyond Data: The Strategic Role of Database in Modern Business",
+      "date": "2024-06-27",
+      "description": "A deep dive into how modern databases drive strategy and operations across industries.",
+      "image": "/images/events/2023-2024/beyond-the-data.webp",
       "tags": [
-        "Coding",
-        "Teamwork",
-        "Innovation",
-        "AI"
+        "Seminar",
+        "Database",
+        "Business"
       ],
-      "rewards": {
-        "points": 100,
-        "badge": "Hackathon Veteran '24"
-      },
-      "rsvps": [
-        {
-          "id": "officer-001",
-          "name": "Maria Rodriguez",
-          "avatar": "/images/avatar.png"
-        },
-        {
-          "id": "student-002",
-          "name": "Michael Chen",
-          "avatar": "/images/avatar.png"
-        }
-      ]
+      "status": "past"
     },
     {
-      "id": "ui-ux-design-workshop",
-      "slug": "ui-ux-design-workshop",
-      "title": "UI/UX Design Workshop",
-      "date": "2024-11-20T13:00:00Z",
-      "type": "Workshop",
-      "status": "upcoming",
-      "image": "/images/event-ui-workshop.png",
-      "aiHint": "design workshop",
-      "location": "Room 303, Tech Building",
-      "limit": 25,
-      "description": "Learn the fundamentals of User Interface and User Experience design from an industry professional. This hands-on workshop will cover wireframing, prototyping, and user testing.",
+      "title": "IT WEEK 2024 Techfrontiers: Forging Tomorrow's IT Leaders with Pioneering Proficiency",
+      "date": "2024-02-29",
+      "description": "Multi-day IT Week (Feb 29–Mar 2, 2024) featuring talks, competitions, and hands-on activities.",
+      "image": "/images/events/2023-2024/it-week.webp",
       "tags": [
-        "UI/UX",
-        "Figma",
-        "Design"
+        "IT Week",
+        "Talks",
+        "Competitions",
+        "Workshops"
       ],
-      "rewards": {
-        "points": 25,
-        "badge": "Design Thinker"
-      },
-      "rsvps": [
-        {
-          "id": "student-003",
-          "name": "Emily Carter",
-          "avatar": "/images/avatar.png"
-        }
-      ]
+      "status": "past"
     },
     {
-      "id": "lan-party-finals",
-      "slug": "lan-party-finals",
-      "title": "LAN Party Finals",
-      "date": "2024-12-05T18:00:00Z",
-      "type": "Social",
-      "status": "upcoming",
-      "image": "/images/event-art-music-festival.png",
-      "aiHint": "video games",
-      "location": "Student Lounge",
-      "limit": 2,
-      "description": "The final showdown! Watch the top two teams battle it out for the championship title. Free pizza and drinks for all attendees.",
+      "title": "Freshmen Orientation 2023",
+      "date": "2023-09-25",
+      "description": "Welcoming the new batch of students and introducing campus organizations and programs.",
+      "image": "/images/events/2023-2024/freshmen-orientation.webp",
       "tags": [
-        "Gaming",
-        "Social",
-        "eSports"
+        "Orientation",
+        "Student Life"
       ],
-      "rewards": {
-        "points": 5
-      },
-      "rsvps": [
-        {
-          "id": "officer-002",
-          "name": "John Smith",
-          "avatar": "/images/avatar.png"
-        },
-        {
-          "id": "admin-001",
-          "name": "Professor Davis",
-          "avatar": "/images/avatar.png"
-        }
-      ]
+      "status": "past"
     },
     {
-      "id": "tech-symposium-2024",
-      "slug": "tech-symposium-2024",
-      "title": "Tech Symposium 2024",
-      "date": "2024-10-26T10:00:00Z",
-      "type": "Guest Speaker",
-      "status": "past",
-      "image": "/images/event-tech-symposium.png",
-      "aiHint": "tech conference",
-      "location": "Grand Hall",
-      "limit": null,
-      "description": "A full day of talks from industry leaders on the future of AI, quantum computing, and blockchain technology. A must-attend for any tech enthusiast.",
+      "title": "General Assembly 2023",
+      "date": "2023-10-19",
+      "description": "Kickoff assembly for the academic year with org updates and community building.",
+      "image": "/images/events/2023-2024/general-assembly.webp",
       "tags": [
-        "AI",
-        "Networking",
-        "Future Tech"
+        "Assembly",
+        "Community",
+        "Updates"
       ],
-      "rewards": {
-        "points": 50,
-        "badge": "Symposium Scholar"
-      },
-      "attended": true,
-      "rsvps": [
-        {
-          "id": "student-001",
-          "name": "Alex Doe",
-          "avatar": "/images/avatar.png"
-        }
-      ],
-      "resources": "/downloads/symposium-slides.zip"
+      "status": "past"
     },
     {
-      "id": "career-fair-fall-2024",
-      "slug": "career-fair-fall-2024",
-      "title": "Career Fair Fall 2024",
-      "date": "2024-10-15T11:00:00Z",
-      "type": "Career Development",
-      "status": "past",
-      "image": "/images/event-career-fair.png",
-      "aiHint": "career fair",
-      "location": "University Gymnasium",
-      "limit": null,
-      "description": "Connect with over 50 top companies looking to hire interns and full-time employees. Bring your resume and dress to impress!",
+      "title": "IT Skills Olympics 2023",
+      "date": "2023-11-24",
+      "description": "Competitive showcase of student technical skills across various IT domains.",
+      "image": "/images/events/2023-2024/it-skills.webp",
       "tags": [
-        "Career",
-        "Networking",
-        "Jobs"
+        "Competition",
+        "Skills",
+        "Programming"
       ],
-      "rewards": {
-        "points": 10
-      },
-      "attended": false,
-      "rsvps": [],
-      "resources": null
+      "status": "past"
+    },
+    {
+      "title": "Funday 2023",
+      "date": "2023-11-28",
+      "description": "Community day with games and activities to foster camaraderie.",
+      "image": "/images/events/2023-2024/funday.webp",
+      "tags": [
+        "Community",
+        "Games",
+        "Social"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Q4E 2023",
+      "date": "2023-12-20",
+      "description": "Quest for Excellence 2023 highlights and competitions.",
+      "image": "/images/events/2023-2024/q4e.webp",
+      "tags": [
+        "Q4E",
+        "Competitions",
+        "Campus"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Strategic Innovation: Combining Project Management  Excellence with Creative System Design",
+      "date": "2024-06-26",
+      "description": "Exploring how project management excellence meets creative system design to deliver innovation.",
+      "image": "/images/events/2023-2024/beyond-the-data.webp",
+      "tags": [
+        "Seminar",
+        "Project Management",
+        "System Design"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "THE 55TH SHELL NATIONAL STUDENTS’ ART COMPETITION 2023 (NSAC)",
+      "date": "2023-06-01",
+      "description": "National art competition (Jun 1 – Sep 30, 2023) celebrating student creativity across categories.",
+      "image": "/images/events/general-assembly.webp",
+      "tags": [
+        "Competition",
+        "Art",
+        "National"
+      ],
+      "status": "past"
     }
   ],
   "officers": [
@@ -1163,67 +1119,67 @@
     {
       "name": "ESMASIN, John Christian",
       "position": "Adviser",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/esmasin.webp",
       "batch": "2025-2026"
     },
     {
       "name": "GARCIA, Kent D.",
       "position": "President",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Garcia2.webp",
       "batch": "2025-2026"
     },
     {
       "name": "REYES, Rucia",
       "position": "Vice President for Internal Affairs",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Reyes.webp",
       "batch": "2025-2026"
     },
     {
       "name": "PINTO, Ezekiel M.",
       "position": "Vice President for External Affairs",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Pinto.webp",
       "batch": "2025-2026"
     },
     {
       "name": "REGULACION, Roxanne N.",
       "position": "Secretary",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Regulacion.webp",
       "batch": "2025-2026"
     },
     {
       "name": "SANTIAGO, Jhayciel",
       "position": "Treasurer",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Santiago.webp",
       "batch": "2025-2026"
     },
     {
       "name": "ARABACA, Irish",
       "position": "Auditor",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Arabaca.webp",
       "batch": "2025-2026"
     },
     {
       "name": "CAPUSO, Maria Nicole",
       "position": "Director of Creatives",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Capuso.webp",
       "batch": "2025-2026"
     },
     {
       "name": "RAMILO, Philip Miguel",
       "position": "Director of Logistics",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Ramilo.webp",
       "batch": "2025-2026"
     },
     {
       "name": "QUIZANA, Rhaya Mariella P.",
       "position": "Chief Information Officer",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Quizana.webp",
       "batch": "2025-2026"
     },
     {
       "name": "RONQUILLO, Jenmarc",
       "position": "Internal Information Officer",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Ronquillo.webp",
       "batch": "2025-2026"
     },
     {
@@ -1253,7 +1209,7 @@
     {
       "name": "BUERRANO, Sean",
       "position": "2nd yr class representative",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Buerano.webp",
       "batch": "2025-2026"
     },
     {
@@ -1265,13 +1221,13 @@
     {
       "name": "DAGUPLO, Erica",
       "position": "1st yr class representative",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Daguplo.webp",
       "batch": "2025-2026"
     },
     {
       "name": "DAMIAN, MJ",
       "position": "1st yr class representative",
-      "image": "/images/avatar.png",
+      "image": "/images/officers/2025-2026/Damian.webp",
       "batch": "2025-2026"
     }
   ],
@@ -1293,18 +1249,183 @@
       "context": "Quest for Excellence 2024"
     },
     {
+      "title": "3rd Place - SiKAPtala Hackathon Competition",
+      "date": "2026-05-11",
+      "year": "2026"
+    },
+    {
+      "title": "JuanaFlix: A Short Film Festival",
+      "date": "2026-03-31",
+      "year": "2026"
+    },
+    {
+      "title": "1st Runner Up - Code Spark 2026 Hackathon Competition",
+      "date": "2026-03-19",
+      "year": "2026"
+    },
+    {
+      "title": "1st Place - Code and Canvas 2026",
+      "date": "2026-03-19",
+      "year": "2026"
+    },
+    {
+      "title": "5th Place - Code and Canvas 2026",
+      "date": "2026-03-19",
+      "year": "2026"
+    },
+    {
+      "title": "4th Place - Sampaguita Blooms 2.0",
+      "date": "2026-05",
+      "year": "2026"
+    },
+    {
       "title": "Ignite Hackathon 2025 - Champion",
-      "date": "2025-04-15",
+      "date": "2025-08-12",
       "year": "2025"
     },
     {
-      "title": "FEU Create & Conquer Hackathon - Champion",
-      "date": "2025-03-02",
+      "title": "FEU Create & Conquer 2025 Hackathon - Champion",
+      "date": "2025-07-05",
       "year": "2025"
     },
     {
-      "title": "GDG Hackathon - 1st Runner Up",
-      "date": "2024-10-08",
+      "title": "Best Presenter - FEU Create & Conquer 2025 Hackathon",
+      "date": "2025-07-05",
+      "year": "2025"
+    },
+    {
+      "title": "1st Runner Up - GDG Sparkfest Hackathon 2025",
+      "date": "2025-06-07",
+      "year": "2025"
+    },
+    {
+      "title": "DevCon Best Application Award - GDG Sparkfest Hackathon 2025",
+      "date": "2025-06-07",
+      "year": "2025"
+    },
+    {
+      "title": "Best Presenter - 12th ICT Research Congress",
+      "date": "2025-05-22",
+      "year": "2025"
+    },
+    {
+      "title": "Champion - SPCUAA Season 20 Men's Volleyball",
+      "date": "2025-05-08",
+      "year": "2025"
+    },
+    {
+      "title": "Best Server - SPCUAA Season 20 Men's Volleyball",
+      "date": "2025-05-08",
+      "year": "2025"
+    },
+    {
+      "title": "3rd Place - 4th PUP Research Pitching Competition",
+      "date": "2025-01-31",
+      "year": "2025"
+    },
+    {
+      "title": "Best in Academics Category - Quest for Excellence 2024",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Best in Cultural Category - Quest for Excellence 2024",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Basic Mathematics Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Basic Statistics Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - ICT Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Philippine History, Culture, and Arts Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - General Science Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "4th Place - Social Science Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - General Information Quiz Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "2nd Place - Campus Wide Spelling Bee (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Impromptu Speaking Contest (English) (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "1st Place - Dagliang Talumpati (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Your Face Sounds Familiar Competition (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Pop Idol Duet Competition (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Banner Making Competition (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Men's Singles Badminton (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Rubik's Solo (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "Champion - Rubik's Group (Quest for Excellence 2024)",
+      "date": "2024-12-20",
+      "year": "2024"
+    },
+    {
+      "title": "1st Runner Up - Ms. PUPSPC 2024",
+      "date": "2024-12-19",
+      "year": "2024"
+    },
+    {
+      "title": "2nd Runner Up - Mr. PUPSPC 2024",
+      "date": "2024-12-19",
+      "year": "2024"
+    },
+    {
+      "title": "3rd Place - University Intramurals 2024",
+      "date": "2024-11-12",
       "year": "2024"
     },
     {
