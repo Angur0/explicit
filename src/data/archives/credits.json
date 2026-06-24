@@ -35,6 +35,24 @@
       "role": "Quality Assurance (QA)",
       "image": "/images/avatar.png",
       "links": []
+    },
+    {
+      "name": "Paul Wendell Angulo",
+      "role": "Lead Developer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Angelo David Macayran",
+      "role": "Developer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Jefferson Orpesa",
+      "role": "Content Writer",
+      "image": "/images/avatar.png",
+      "links": []
     }
   ],
   "futureMaintainers": [

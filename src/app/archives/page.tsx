@@ -333,12 +333,12 @@ export default function ArchivesPage() {
 
                                 <Card>
                                     <CardHeader>
-                                        <CardTitle className="font-headline">Contributors</CardTitle>
-                                        <CardDescription>Design, content, and code collaborators</CardDescription>
+                                        <CardTitle className="font-headline">Maintainers</CardTitle>
+                                        <CardDescription>Students or officers who will maintain the site</CardDescription>
                                     </CardHeader>
                                     <CardContent>
                                         <div className="grid gap-4 sm:grid-cols-2">
-                                            {creditsData.contributors?.map((p: any, idx: number) => (
+                                            {creditsData.futureMaintainers?.map((p: any, idx: number) => (
                                                 <div key={idx} className="flex items-center gap-4">
                                                     <Avatar className="h-12 w-12">
                                                         <AvatarImage src={p.image} alt={p.name} />
@@ -363,12 +363,12 @@ export default function ArchivesPage() {
 
                                 <Card>
                                     <CardHeader>
-                                        <CardTitle className="font-headline">Maintainers</CardTitle>
-                                        <CardDescription>Students or officers who will maintain the site</CardDescription>
+                                        <CardTitle className="font-headline">Contributors</CardTitle>
+                                        <CardDescription>Design, content, and code collaborators</CardDescription>
                                     </CardHeader>
                                     <CardContent>
                                         <div className="grid gap-4 sm:grid-cols-2">
-                                            {creditsData.futureMaintainers?.map((p: any, idx: number) => (
+                                            {creditsData.contributors?.map((p: any, idx: number) => (
                                                 <div key={idx} className="flex items-center gap-4">
                                                     <Avatar className="h-12 w-12">
                                                         <AvatarImage src={p.image} alt={p.name} />
