@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* header height used for section sizing */
+    --header-height: 5rem;
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 235 86% 65%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 235 82% 59%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 1rem;
+    --chart-1: 221.2 83.2% 53.3%;
+    --chart-2: 166.2 76.5% 42.6%;
+    --chart-3: 35.2 92.5% 54.3%;
+    --chart-4: 210 40% 96.1%;
+    --chart-5: 222.2 47.4% 11.2%;
+  }
+
+  .dark {
+    --background: 217 33% 17%;
+    --foreground: 210 40% 98%;
+    --card: 217 33% 22%;
+    --card-foreground: 210 40% 98%;
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 235 86% 65%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 215 28% 25%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 215 28% 25%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 235 82% 59%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 28% 25%;
+    --input: 215 28% 25%;
+    --ring: 199 89% 48%;
+    --chart-1: 199 89% 48%;
+    --chart-2: 177 39% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  html {
+    /* Disable snapping on small screens to prevent content cutoff */
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    /* Offset scroll-snap-align by header height */
+    scroll-padding-top: var(--header-height);
+    /* Prefer GPU rasterization for smoother scrolling */
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Increase header height on larger screens */
+  @screen md {
+    :root {
+      --header-height: 6rem;
+    }
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .snap-section {
+    /* Mobile-first: auto height so content fits; spacing for breathing room */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .snap-section > * {
+    /* Top-align on small screens to avoid clipping */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* Hero: remove outer padding when needed (higher specificity than .snap-section) */
+  .snap-section.no-pad {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @screen md {
+    .snap-section {
+      /* At least viewport height minus header, but allow growth if content is taller */
+      min-height: calc(100svh - var(--header-height));
+      height: auto;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .snap-section > * {
+      /* Center on larger screens for hero-like sections */
+      justify-content: center;
+    }
+    .snap-section.no-pad {
+      /* Keep no padding on larger screens as well */
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+/* Font faces for Google Sans (assumes local install). If webfonts are provided later, set src: url(...) formats. */
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: local("Google Sans"), local("Product Sans"), local("GoogleSans-Regular");
+}

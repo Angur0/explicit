@@ -1,0 +1,53 @@
+{
+  "eventHighlights": {
+    "sectionTitle": "Event Highlights",
+    "sectionDescription": "Explore the signature programs and activities that define our organization. Each event is designed to foster collaboration, strengthen skills, and create meaningful experiences for every member throughout the year.",
+    "highlights": [
+      {
+        "title": "Annual General Assembly",
+        "description": "A grand kick-off event that brings together all recognized members to celebrate achievements, welcome new faces, and strengthen our community spirit.",
+        "dialogContent": "The Annual General Assembly is more than just a gathering—it’s our way of uniting the entire community under one roof. Members get to meet new peers, reconnect with old friends, and share in the excitement of a new academic year. The event features organizational updates, recognition of achievements, fun activities, and opportunities to get involved in upcoming projects. It’s the perfect starting point for building connections, celebrating milestones, and setting the tone for the months ahead.",
+        "image": "/images/events/general-assembly.webp",
+        "aiHint": "university club general assembly crowd enjoying event",
+        "frequency": "Annually"
+      },
+      {
+        "title": "Skill-Building Workshops",
+        "description": "Interactive sessions where members learn emerging tools, sharpen technical skills, and collaborate through hands-on activities and mini-competitions.",
+        "dialogContent": "Our workshops are designed to transform learning into an engaging and collaborative experience. Members explore new technologies, learn practical applications, and gain insights from mentors and guest speakers. Each session emphasizes not only technical mastery but also problem-solving, teamwork, and creativity. With opportunities for coding sprints, design challenges, and group activities, workshops serve as a launchpad for both personal growth and professional readiness.",
+        "image": "/images/events/workshop.webp",
+        "aiHint": "students in coding workshop collaborating on laptops",
+        "frequency": "Monthly"
+      },
+      {
+        "title": "Innovation Hackathons",
+        "description": "Fast-paced competitions where teams develop prototypes and pitch solutions to real-world challenges under time pressure.",
+        "dialogContent": "Hackathons are the ultimate test of innovation, collaboration, and endurance. Over an intense period, members form teams to brainstorm, build, and present working solutions to pressing problems. Guided by mentors and supported by peers, participants learn to work under pressure, think critically, and showcase their creativity. Whether hosting our own hackathons or joining inter-campus competitions, these events embody our spirit of innovation and community-driven problem-solving.",
+        "image": "/images/events/hackathon.webp",
+        "aiHint": "hackathon teams coding overnight with mentors",
+        "frequency": "Bi-annually"
+      },
+      {
+        "title": "Competitions & Research Congress",
+        "description": "Opportunities for members to represent the organization by competing in academic, research, and technology-related contests on campus and beyond.",
+        "dialogContent": "Competitions and research congresses are where our members shine on bigger stages. From presenting groundbreaking research to competing in robotics, programming, and IT challenges, these platforms allow students to showcase their skills and creativity while representing the organization with pride. Winning is not the only goal—participation fosters confidence, builds credibility, and opens doors to new networks and collaborations. Each victory, whether personal or team-based, strengthens the organization’s legacy of excellence.",
+        "image": "/images/events/tech.webp",
+        "aiHint": "students receiving award at technology competition",
+        "frequency": "Varies"
+      }
+    ],
+    "enabled": true
+  },
+  "editingInstructions": {
+    "sectionTitle": "Main heading for the highlights section",
+    "sectionDescription": "Brief description of what events you conduct",
+    "highlights": "Array of event types/categories you want to showcase (max 3-4 recommended)",
+    "title": "Name of the event type (e.g., 'Workshops', 'Competitions')",
+    "description": "Brief explanation of what this event type involves",
+    "image": "Path to image file (e.g., '/images/events/workshop.jpg')",
+    "aiHint": "Description for AI image generation (e.g., 'students in workshop')",
+    "frequency": "How often these events happen (e.g., 'Monthly', 'Quarterly')",
+    "dialogContent": "Optional long-form content specifically for the dialog; if omitted, the component falls back to 'description'",
+    "enabled": "Set to false to hide this entire section"
+  }
+}

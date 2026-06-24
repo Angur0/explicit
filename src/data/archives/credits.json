@@ -1,0 +1,53 @@
+{
+  "creator": {
+    "name": "Kent Garcia",
+    "role": "Website Creator",
+    "image": "/images/avatar.png",
+    "links": []
+  },
+  "contributors": [
+    {
+      "name": "Dominic Belza",
+      "role": "Lead UI/UX Designer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Lea Villanueva",
+      "role": "UI/UX Designer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Jenmarc Ronquillo",
+      "role": "Content Writer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Rhaya Quizana",
+      "role": "Content Writer",
+      "image": "/images/avatar.png",
+      "links": []
+    },
+    {
+      "name": "Rucia Reyes",
+      "role": "Quality Assurance (QA)",
+      "image": "/images/avatar.png",
+      "links": []
+    }
+  ],
+  "futureMaintainers": [
+    {
+      "name": "Kent Garcia",
+      "role": "Developer",
+      "image": "/images/avatar.png",
+      "links": []
+    }
+  ],
+  "editingInstructions": {
+    "creator": "Primary author of the site with profile links.",
+    "contributors": "People who contributed design, content, or code.",
+    "futureMaintainers": "Students or officers who will maintain the site next."
+  }
+}

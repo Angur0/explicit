@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "welcome",
+    "title": "Welcome to EXPLICIT",
+    "date": "2025-09-01",
+    "author": "Web Team",
+    "excerpt": "Our new site is live with archives, events, and more.",
+    "image": "/images/hero/1.webp",
+    "aiHint": "students in tech club",
+    "content": "<p>We are excited to launch the new EXPLICIT website. Explore archives, browse events, and meet the team.</p>"
+  }
+]

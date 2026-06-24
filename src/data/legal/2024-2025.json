@@ -1,0 +1,65 @@
+{
+  "constitution": {
+    "paragraphs": [
+      "We, the students of the Bachelor of Science in Information Technology of the Polytechnic University of the Philippines – San Pedro Campus, united by the spirit of service, academic excellence, leadership, and camaraderie, do hereby establish this Constitution to govern the Explorers in Communication and Information Technology (EXPLICIT).",
+      "This Constitution shall serve as the fundamental law of the Organization, ensuring democratic governance, effective leadership, and the holistic development of its members in the pursuit of excellence in the field of Information and Communication Technology."
+    ],
+    "articles": [],
+    "closing_paragraphs": [],
+    "sections": [
+      {
+        "title": "Section 1. Vision",
+        "items": [
+          "1.1. The EXPLICIT Organization envisions itself as a premier academic organization of BSIT students at PUP–San Pedro Campus, fostering innovation, collaboration, and leadership in the field of Information Technology while upholding the values of integrity, excellence, and service."
+        ]
+      },
+      {
+        "title": "Section 2. Mission",
+        "items": [
+          "The EXPLICIT Organization commits to:",
+          "2.1. Act as the official academic and co-curricular organization representing the student body of BSIT at PUP–San Pedro Campus;",
+          "2.2. Serve as a liaison between BSIT students and the faculty, promoting open dialogue and collaboration;",
+          "2.3. Defend, promote, and protect the rights and welfare of BSIT students while serving as an active forum for their ideas and sentiments;",
+          "2.4. Uphold the ideals of the University geared towards the holistic development of every student mentally, socially, emotionally, spiritually, and physically;",
+          "2.5. Instill campus awareness, civic responsibility, and social consciousness among IT students;",
+          "2.6. Unite with other student organizations and concerned sectors of the University in the pursuit of the common good."
+        ]
+      },
+      {
+        "title": "Section 3. Goals",
+        "items": [
+          "The EXPLICIT Organization shall:",
+          "3.1. Provide an academic and social forum for BSIT students to express, develop, and realize their ideas, skills, and potential.",
+          "3.2. Further the general welfare of BSIT students and contribute to the growth of the PUP–SPC community.",
+          "3.3. Encourage active student involvement in projects and activities that promote IT excellence, leadership, service, and community engagement.",
+          "3.4. Strengthen the academic, technical, and professional competencies of BSIT students through events, competitions, workshops, and symposia.",
+          "3.5. Develop a sense of responsibility, discipline, and service-oriented leadership among BSIT students."
+        ]
+      },
+      {
+        "title": "Section 4. Objectives",
+        "items": [
+          "In pursuit of its vision and mission, the EXPLICIT Organization shall strive to:",
+          "4.1. Conduct academic activities such as seminars, workshops, hackathons, research forums, and exhibits to enhance IT knowledge and skills.",
+          "4.2. Organize extra-curricular and socio-civic activities that foster leadership, teamwork, creativity, and community involvement.",
+          "4.3. Establish partnerships with industry professionals, alumni, and external organizations for academic and career development opportunities.",
+          "4.4. Promote a culture of innovation, ethical technology use, and social responsibility.",
+          "4.5. Ensure active communication and collaboration between students, faculty, and administration on matters concerning BSIT student welfare."
+        ]
+      }
+    ]
+  },
+  "bylaws": {
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ],
+    "articles": [
+      "Article I - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Article I - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Article I - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ],
+    "closing_paragraphs": [
+      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam."
+    ]
+  }
+}

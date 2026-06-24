@@ -1,0 +1,16 @@
+{
+  "highlights": [
+    {
+      "title": "Hands-on Python Workshop",
+      "description": "Members engaged in a practical workshop, building real-world applications with Python and its popular libraries.",
+      "image": "/images/highlight-workshop.png",
+      "aiHint": "students coding workshop"
+    },
+    {
+      "title": "Annual Tech Symposium",
+      "description": "Industry experts shared insights on the latest trends in AI and software development, inspiring our next generation of innovators.",
+      "image": "/images/highlight-symposium.png",
+      "aiHint": "tech conference speaker"
+    }
+  ]
+} 

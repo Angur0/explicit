@@ -1,0 +1,62 @@
+[
+  {
+    "name": "GUILLEN, Cris",
+    "position": "President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "AGUIRRE, Jennylyn",
+    "position": "Vice President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BARSAGA, Mary Rose",
+    "position": "Secretary",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "NARISMA, Ariane Rose",
+    "position": "Treasurer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BENITO, Christian",
+    "position": "Auditor",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BERNANTES, Dale James",
+    "position": "Chief Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "MARCIAL, Sharmaine",
+    "position": "Internal Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "SOLAYAO, Dan Patrick",
+    "position": "External Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "PINEDA, Jonan",
+    "position": "4th yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "GA, Charissah",
+    "position": "3rd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "FERRER, Jamir Irah",
+    "position": "2nd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "RAFOLS, Victor",
+    "position": "1st yr class representative",
+    "image": "/images/avatar.png"
+  }
+]

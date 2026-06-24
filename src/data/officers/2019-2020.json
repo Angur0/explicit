@@ -1,0 +1,57 @@
+[
+  {
+    "name": "DANCEL, Crisjan",
+    "position": "President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "SAN RAMON, Victor",
+    "position": "Vice President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "SALAZAR, Gelyka",
+    "position": "Secretary",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "AMIL, Xena",
+    "position": "Treasurer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "VALENZUELA, Catherine Joyce",
+    "position": "Auditor",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BALIBREA, Jacquelyn",
+    "position": "Chief Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "DOMINGUIANO, Anna",
+    "position": "Internal Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "PLATINO, Jireh",
+    "position": "External Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "AGUILAR, Joan",
+    "position": "3rd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "QUINIQUITO, Arl",
+    "position": "2nd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "NALE, Sine",
+    "position": "1st yr class representative",
+    "image": "/images/avatar.png"
+  }
+]

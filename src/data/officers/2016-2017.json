@@ -1,0 +1,57 @@
+[
+  {
+    "name": "BALBERAN, Joemarie",
+    "position": "President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "CRUZ, Gerone",
+    "position": "Vice President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BORJA, Kimberly Anne",
+    "position": "Secretary",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "RAFOLS, Victor",
+    "position": "Treasurer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "CATALAN, Rodmil",
+    "position": "Auditor",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "MORALES, Norvi Rose",
+    "position": "Chief Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "DELA FUENTE, Jocelyn",
+    "position": "Internal Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "RUIZ, Hjmaya Nicole",
+    "position": "External Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "DE GUZMAN, Roy",
+    "position": "4th yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "MANAOIS, Mirianny",
+    "position": "3rd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BARREDO, Nicole",
+    "position": "2nd yr class representative",
+    "image": "/images/avatar.png"
+  }
+]

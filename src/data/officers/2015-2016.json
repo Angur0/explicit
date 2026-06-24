@@ -1,0 +1,57 @@
+[
+  {
+    "name": "SEGOTIER, Jane",
+    "position": "President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "BALBERAN, Joemarie",
+    "position": "Vice President",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "RAFOLS, Victor",
+    "position": "Secretary",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "APILADO, Agustin",
+    "position": "Treasurer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "TENEFRENCIA, Daniel",
+    "position": "Auditor",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "MOSTRALES, John Paulo",
+    "position": "Chief Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "MANAOIS, Mirianny",
+    "position": "Internal Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "SOLAYAO, Dan Patrick",
+    "position": "External Information Officer",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "DELOS SANTOS, Jeric",
+    "position": "4th yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "DE GUZMAN, Roy",
+    "position": "3rd yr class representative",
+    "image": "/images/avatar.png"
+  },
+  {
+    "name": "VERGARA, Ella Rose",
+    "position": "2nd yr class representative",
+    "image": "/images/avatar.png"
+  }
+]

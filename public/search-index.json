@@ -1,0 +1,1316 @@
+{
+  "pages": [
+    {
+      "kind": "page",
+      "title": "Home",
+      "url": "/",
+      "description": "EXPLICIT — Official site",
+      "keywords": [
+        "home",
+        "explicit",
+        "organization"
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "About",
+      "url": "/about",
+      "description": "About EXPLICIT",
+      "keywords": [
+        "about",
+        "vmgo",
+        "history",
+        "officers"
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "Events",
+      "url": "/events",
+      "description": "Upcoming and past events",
+      "keywords": [
+        "events",
+        "workshops",
+        "hackathon",
+        "seminars"
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "Archives",
+      "url": "/archives",
+      "description": "Awards, achievements, past officers, news, credits",
+      "keywords": [
+        "archives",
+        "awards",
+        "achievements",
+        "officers",
+        "news",
+        "credits"
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "Gallery",
+      "url": "/gallery",
+      "description": "Featured photos and media",
+      "keywords": [
+        "gallery",
+        "photos",
+        "media"
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "News",
+      "url": "/news",
+      "description": "Stories and updates",
+      "keywords": [
+        "news",
+        "articles",
+        "updates"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "kind": "section",
+      "title": "Home – Events",
+      "url": "/#events",
+      "keywords": [
+        "home",
+        "events",
+        "upcoming"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "About – About",
+      "url": "/about#about",
+      "keywords": [
+        "about",
+        "introduction"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "About – Preamble",
+      "url": "/about#preamble",
+      "keywords": [
+        "about",
+        "preamble"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "About – VMGO",
+      "url": "/about#vmgo",
+      "keywords": [
+        "vision",
+        "mission",
+        "goals"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "About – History",
+      "url": "/about#history",
+      "keywords": [
+        "history",
+        "timeline"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "About – Officers",
+      "url": "/about#officers",
+      "keywords": [
+        "officers",
+        "leadership"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "Archives – Hall of Fame",
+      "url": "/archives#hall-of-fame",
+      "keywords": [
+        "archives",
+        "awards",
+        "hall of fame"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "Archives – Achievements",
+      "url": "/archives#achievements",
+      "keywords": [
+        "archives",
+        "achievements"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "Archives – Past Officers",
+      "url": "/archives#past-officers",
+      "keywords": [
+        "archives",
+        "officers"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "Archives – News",
+      "url": "/archives#news",
+      "keywords": [
+        "archives",
+        "news",
+        "articles"
+      ]
+    },
+    {
+      "kind": "section",
+      "title": "Archives – Credits",
+      "url": "/archives#credits",
+      "keywords": [
+        "archives",
+        "credits"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "slug": "welcome",
+      "title": "Welcome to EXPLICIT",
+      "date": "2025-09-01",
+      "author": "Web Team",
+      "excerpt": "Our new site is live with archives, events, and more.",
+      "image": "/images/hero/1.webp",
+      "aiHint": "students in tech club",
+      "content": "<p>We are excited to launch the new EXPLICIT website. Explore archives, browse events, and meet the team.</p>"
+    }
+  ],
+  "events": [
+    {
+      "id": "annual-hackathon-2024",
+      "slug": "annual-hackathon-2024",
+      "title": "Annual Hackathon 2024",
+      "date": "2024-11-15T09:00:00Z",
+      "type": "Competition",
+      "status": "upcoming",
+      "image": "/images/event-hackathon.png",
+      "aiHint": "coding hackathon",
+      "location": "Main Auditorium",
+      "limit": 50,
+      "description": "Join our annual 24-hour coding challenge! Form a team, build an innovative project, and compete for amazing prizes. This year's theme is 'AI for Social Good'. All skill levels are welcome.",
+      "tags": [
+        "Coding",
+        "Teamwork",
+        "Innovation",
+        "AI"
+      ],
+      "rewards": {
+        "points": 100,
+        "badge": "Hackathon Veteran '24"
+      },
+      "rsvps": [
+        {
+          "id": "officer-001",
+          "name": "Maria Rodriguez",
+          "avatar": "/images/avatar.png"
+        },
+        {
+          "id": "student-002",
+          "name": "Michael Chen",
+          "avatar": "/images/avatar.png"
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-design-workshop",
+      "slug": "ui-ux-design-workshop",
+      "title": "UI/UX Design Workshop",
+      "date": "2024-11-20T13:00:00Z",
+      "type": "Workshop",
+      "status": "upcoming",
+      "image": "/images/event-ui-workshop.png",
+      "aiHint": "design workshop",
+      "location": "Room 303, Tech Building",
+      "limit": 25,
+      "description": "Learn the fundamentals of User Interface and User Experience design from an industry professional. This hands-on workshop will cover wireframing, prototyping, and user testing.",
+      "tags": [
+        "UI/UX",
+        "Figma",
+        "Design"
+      ],
+      "rewards": {
+        "points": 25,
+        "badge": "Design Thinker"
+      },
+      "rsvps": [
+        {
+          "id": "student-003",
+          "name": "Emily Carter",
+          "avatar": "/images/avatar.png"
+        }
+      ]
+    },
+    {
+      "id": "lan-party-finals",
+      "slug": "lan-party-finals",
+      "title": "LAN Party Finals",
+      "date": "2024-12-05T18:00:00Z",
+      "type": "Social",
+      "status": "upcoming",
+      "image": "/images/event-art-music-festival.png",
+      "aiHint": "video games",
+      "location": "Student Lounge",
+      "limit": 2,
+      "description": "The final showdown! Watch the top two teams battle it out for the championship title. Free pizza and drinks for all attendees.",
+      "tags": [
+        "Gaming",
+        "Social",
+        "eSports"
+      ],
+      "rewards": {
+        "points": 5
+      },
+      "rsvps": [
+        {
+          "id": "officer-002",
+          "name": "John Smith",
+          "avatar": "/images/avatar.png"
+        },
+        {
+          "id": "admin-001",
+          "name": "Professor Davis",
+          "avatar": "/images/avatar.png"
+        }
+      ]
+    },
+    {
+      "id": "tech-symposium-2024",
+      "slug": "tech-symposium-2024",
+      "title": "Tech Symposium 2024",
+      "date": "2024-10-26T10:00:00Z",
+      "type": "Guest Speaker",
+      "status": "past",
+      "image": "/images/event-tech-symposium.png",
+      "aiHint": "tech conference",
+      "location": "Grand Hall",
+      "limit": null,
+      "description": "A full day of talks from industry leaders on the future of AI, quantum computing, and blockchain technology. A must-attend for any tech enthusiast.",
+      "tags": [
+        "AI",
+        "Networking",
+        "Future Tech"
+      ],
+      "rewards": {
+        "points": 50,
+        "badge": "Symposium Scholar"
+      },
+      "attended": true,
+      "rsvps": [
+        {
+          "id": "student-001",
+          "name": "Alex Doe",
+          "avatar": "/images/avatar.png"
+        }
+      ],
+      "resources": "/downloads/symposium-slides.zip"
+    },
+    {
+      "id": "career-fair-fall-2024",
+      "slug": "career-fair-fall-2024",
+      "title": "Career Fair Fall 2024",
+      "date": "2024-10-15T11:00:00Z",
+      "type": "Career Development",
+      "status": "past",
+      "image": "/images/event-career-fair.png",
+      "aiHint": "career fair",
+      "location": "University Gymnasium",
+      "limit": null,
+      "description": "Connect with over 50 top companies looking to hire interns and full-time employees. Bring your resume and dress to impress!",
+      "tags": [
+        "Career",
+        "Networking",
+        "Jobs"
+      ],
+      "rewards": {
+        "points": 10
+      },
+      "attended": false,
+      "rsvps": [],
+      "resources": null
+    }
+  ],
+  "officers": [
+    {
+      "name": "GUILLEN, Cris",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "AGUIRRE, Jennylyn",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "BARSAGA, Mary Rose",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "NARISMA, Ariane Rose",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "BENITO, Christian",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "BERNANTES, Dale James",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "MARCIAL, Sharmaine",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "SOLAYAO, Dan Patrick",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "PINEDA, Jonan",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "GA, Charissah",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "FERRER, Jamir Irah",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "RAFOLS, Victor",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2013-2014"
+    },
+    {
+      "name": "SEGOTIER, Jane",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "BALBERAN, Joemarie",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "RAFOLS, Victor",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "APILADO, Agustin",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "TENEFRENCIA, Daniel",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "MOSTRALES, John Paulo",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "MANAOIS, Mirianny",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "SOLAYAO, Dan Patrick",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "DELOS SANTOS, Jeric",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "DE GUZMAN, Roy",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "VERGARA, Ella Rose",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2015-2016"
+    },
+    {
+      "name": "BALBERAN, Joemarie",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "CRUZ, Gerone",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "BORJA, Kimberly Anne",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "RAFOLS, Victor",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "CATALAN, Rodmil",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "MORALES, Norvi Rose",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "DELA FUENTE, Jocelyn",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "RUIZ, Hjmaya Nicole",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "DE GUZMAN, Roy",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "MANAOIS, Mirianny",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "BARREDO, Nicole",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2016-2017"
+    },
+    {
+      "name": "ALIWANAG, Mark Jonathan",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "SALUDARIO, April Rose",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "DULA, Ma. Vic",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "PUNAY, Emmalyn",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "GAIDA, Pauline",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "BESA, Reggie",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "ADONA, Daniel",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "AVEDAÑA, Kyle David",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "VILLANUEVA, John Mark",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "GALOPE, Princess",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "RILLERA, Marlou",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2017-2018"
+    },
+    {
+      "name": "BARREDO, Nicole",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "DURAN, Cherrylie",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "ARDA, Katelyne",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "BORABO, Christine",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "PUNAY, Emmalyn",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "DELA CRUZ, Maica",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "CASTILLO, Reajoy",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "CULUBONG, Renate Rose",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "YBARZABAL, Earl Joseph",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "DANCEL, Crisjan",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "VILLANUEVA, Franceska Jirah",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2018-2019"
+    },
+    {
+      "name": "DANCEL, Crisjan",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "SAN RAMON, Victor",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "SALAZAR, Gelyka",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "AMIL, Xena",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "VALENZUELA, Catherine Joyce",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "BALIBREA, Jacquelyn",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "DOMINGUIANO, Anna",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "PLATINO, Jireh",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "AGUILAR, Joan",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "QUINIQUITO, Arl",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "NALE, Sine",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2019-2020"
+    },
+    {
+      "name": "NETHERCOTT, Charisse Adorador",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "DANCEL, Crisjan",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "VALENZUELA, Catherine Joyce",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "SANTOS JR, Danilo",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "GUELAS, Mellen Mae",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "IBARRA, Chelsea Meg",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "DE VERA, Emmanuel",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "DOMINGUIANO, Anna",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "SOLMARIN, Ma. Victoria Louise",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "SANTOS, Jozeth Vienne",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "ADLONG, Racquel",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "NALE, Sine",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2020-2021"
+    },
+    {
+      "name": "NETHERCOTT, Charisse Adorador",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "DOMINGUIANO, Anna A.",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "VILLANUEVA, Franceska Jirah",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "SANTOS JR, Danilo C.",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "GUELAS, Mellen Mae V.",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "AFABLE, Mary Josanne A.",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "DE VERA, Emmanuel C.",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "SOLMARIN, Ma. Victoria Louise S.",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "DE GUZMAN, Romina Rose",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "MODESTO, Lalyn P.",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "CANTUBA, Hazel Grace L.",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "GARCIA, Raven Justin P.",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "CAYANAN, Allan K.",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2021-2022"
+    },
+    {
+      "name": "NETHERCOTT, Charisse Adorador",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "NALE, Sine C.",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "CANTUBA, Hazel Grace L.",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "AFABLE, Mary Josanne A.",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "SABILE, Camille Anne",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "DE GUZMAN, Romina Rose",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "MALING, Roselyn Mae B.",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "SANTOS JR, Danilo C.",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "BERNARDO, Mykel Cymon T.",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "FRILLES, Steven S.",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "DOMINGO, Llewelyn Kate",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "GALLEGO, Natasha Rafaele O.",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "GARCIA, Kent D.",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2022-2023"
+    },
+    {
+      "name": "ESMASIN, John Christian",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "MADRONERO, Nicole Reim F.",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "GALLEGO, Natasha Rafaele O.",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "DOMINGO, Llewelyn Kate A.",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "QUIZANA, Rhaya Mariella P.",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "CAYANAN, Allandon K.",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "GARCIA, Kent D.",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "SAMAR, Niel Joseph M.",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "DELA MATA, Zanille S.",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "CALDA, Jade Ann A.",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "BERNAL, Mykel Cymon T.",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "LAGUNDINO, John Allen V.",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "RAMIREZ, Marc Vince S.",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "DE VILLA, Stephanie Ksans",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2023-2024"
+    },
+    {
+      "name": "ESMASIN, John Christian",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "GARCIA, Kent D.",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "QUIZANA, Rhaya Mariella P.",
+      "position": "Vice President",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "REGULACION, Ashley N.",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "LELIS, Ariane Jasmine T.",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "DE VILLA, Stephanie Ksans",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "REYES, Anjoe",
+      "position": "Director of Creatives",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "RAMILO, Philip Miguel",
+      "position": "Director of Logistics",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "REYES, Michelle Angelica V.",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "PINTO, Ezekiel M.",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "DE JOSE, Clint Lander T.",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "BELZA, Dominic T.",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "SOSA JR, Ronaldo A.",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "LAZATIN, Graciela Ann May",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "RAMIREZ, Marc Vince S.",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "SIROY, Janelle Loraine W.",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "ROBISO, Monica Jane S.",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2024-2025"
+    },
+    {
+      "name": "ESMASIN, John Christian",
+      "position": "Adviser",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "GARCIA, Kent D.",
+      "position": "President",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "REYES, Rucia",
+      "position": "Vice President for Internal Affairs",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "PINTO, Ezekiel M.",
+      "position": "Vice President for External Affairs",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "REGULACION, Roxanne N.",
+      "position": "Secretary",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "SANTIAGO, Jhayciel",
+      "position": "Treasurer",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "ARABACA, Irish",
+      "position": "Auditor",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "CAPUSO, Maria Nicole",
+      "position": "Director of Creatives",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "RAMILO, Philip Miguel",
+      "position": "Director of Logistics",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "QUIZANA, Rhaya Mariella P.",
+      "position": "Chief Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "RONQUILLO, Jenmarc",
+      "position": "Internal Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "FRANCISCO, Helix",
+      "position": "External Information Officer",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "LAGUNDINO, Allen",
+      "position": "4th yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "ANGULO, Wendell",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "PORTANTE, Wilf",
+      "position": "3rd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "BUERRANO, Sean",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "ALBA, Sean",
+      "position": "2nd yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "DAGUPLO, Erica",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    },
+    {
+      "name": "DAMIAN, MJ",
+      "position": "1st yr class representative",
+      "image": "/images/avatar.png",
+      "batch": "2025-2026"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Champion - Hackathon",
+      "context": "Ignite Hackathon 2025"
+    },
+    {
+      "title": "Champion - Hackathon",
+      "context": "FEU Create & Conquer Hackathon 2025"
+    },
+    {
+      "title": "1st Runner Up - Hackathon",
+      "context": "Google Developers Group Hackathon"
+    },
+    {
+      "title": "Director's Cup - Overall Champion",
+      "context": "Quest for Excellence 2024"
+    },
+    {
+      "title": "Ignite Hackathon 2025 - Champion",
+      "date": "2025-04-15",
+      "year": "2025"
+    },
+    {
+      "title": "FEU Create & Conquer Hackathon - Champion",
+      "date": "2025-03-02",
+      "year": "2025"
+    },
+    {
+      "title": "GDG Hackathon - 1st Runner Up",
+      "date": "2024-10-08",
+      "year": "2024"
+    },
+    {
+      "title": "Director's Cup - Overall Champion",
+      "date": "2024-05-20",
+      "year": "2024"
+    }
+  ]
+}

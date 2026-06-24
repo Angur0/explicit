@@ -1,0 +1,97 @@
+{
+  "awards": [
+    {
+      "year": "2024-2025",
+      "title": "Best Org Officer",
+      "recipient": {
+        "name": "Rhaya Quizana",
+        "role": "Officer",
+        "image": "/images/avatar.png"
+      },
+      "description": "Recognized as the best organization officer for exemplary performance and dedication.",
+      "image": "/images/photos/photo-5.webp",
+      "aiHint": "award ceremony portrait"
+    },
+    {
+      "year": "2024-2025",
+      "title": "Leader of the Year",
+      "recipient": {
+        "name": "Stephanie De Villa",
+        "role": "Leader",
+        "image": "/images/avatar.png"
+      },
+      "description": "Honored for outstanding leadership and inspiring the team to achieve more.",
+      "image": "/images/photos/photo-6.webp",
+      "aiHint": "officer award ceremony"
+    },
+    {
+      "year": "2024-2025",
+      "title": "Top Contributor Member",
+      "recipient": {
+        "name": "Mary-Ann Sinfuego",
+        "role": "Member",
+        "image": "/images/avatar.png"
+      },
+      "description": "Awarded for consistent, high-impact contributions to the organization.",
+      "image": "/images/photos/photo-7.webp",
+      "aiHint": "member receiving award"
+    },
+    {
+      "year": "2024-2025",
+      "title": "Consistent Volunteer",
+      "recipient": {
+        "name": "Jerald Reyes",
+        "role": "Volunteer",
+        "image": "/images/avatar.png"
+      },
+      "description": "Acknowledged for steadfast volunteerism and reliable support across events.",
+      "image": "/images/photos/photo-8.webp",
+      "aiHint": "volunteer appreciation"
+    },
+    {
+      "year": "2024-2025",
+      "title": "Most Active Officer",
+      "recipient": {
+        "name": "Dominic Belza",
+        "role": "Officer",
+        "image": "/images/avatar.png"
+      },
+      "description": "For exceptional participation and initiative in organizational activities.",
+      "image": "/images/photos/photo-9.webp",
+      "aiHint": "active officer recognition"
+    },
+    {
+      "year": "2024-2025",
+      "title": "Servant Leader Award",
+      "recipient": {
+        "name": "Ariane Jasmine Lelis",
+        "role": "Officer",
+        "image": "/images/avatar.png"
+      },
+      "description": "Recognized for servant leadership and commitment to serving others.",
+      "image": "/images/photos/photo-10.webp",
+      "aiHint": "servant leadership award"
+    },
+    {
+      "year": "2024-2025",
+      "title": "President of the Year",
+      "recipient": {
+        "name": "Kent Garcia",
+        "role": "President",
+        "image": "/images/avatar.png"
+      },
+      "description": "Awarded for exemplary leadership and organizational excellence as President.",
+      "image": "/images/photos/photo-11.webp",
+      "aiHint": "president of the year award"
+    }
+  ],
+  "editingInstructions": {
+    "awards": "Array of award entries. Add as many as needed.",
+    "year": "School year or calendar year of the award.",
+    "title": "Award title (e.g., Member of the Year).",
+    "recipient": "Object containing name, role, and optional image.",
+    "description": "Short description of why the award was given.",
+    "image": "Cover image representing the award or recipient.",
+    "aiHint": "Optional hint for AI image generation tools."
+  }
+}

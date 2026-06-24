@@ -1,0 +1,29 @@
+{
+  "carouselImages": [
+    {
+      "src": "/images/hero/1.webp",
+      "alt": "Explorers hero photo 1",
+      "aiHint": "explorers hero image 1"
+    },
+    {
+      "src": "/images/hero/2.webp",
+      "alt": "Explorers hero photo 2",
+      "aiHint": "explorers hero image 2"
+    },
+    {
+      "src": "/images/hero/3.webp",
+      "alt": "Explorers hero photo 3",
+      "aiHint": "explorers hero image 3"
+    },
+    {
+      "src": "/images/hero/4.webp",
+      "alt": "Explorers hero photo 4",
+      "aiHint": "explorers hero image 4"
+    },
+    {
+      "src": "/images/hero/5.webp",
+      "alt": "Explorers hero photo 5",
+      "aiHint": "explorers hero image 5"
+    }
+  ]
+}

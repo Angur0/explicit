@@ -1,0 +1,49 @@
+{
+  "achievementsSection": {
+    "sectionTitle": "Achievements",
+    "sectionSubtitle": "Highlights",
+    "sectionDescription": "Celebrating our organization's proudest moments and recognitions that showcase our commitment to excellence and innovation.",
+    "buttonText": "See More",
+    "buttonLink": "/about",
+    "enabled": true,
+    "achievements": [
+      {
+        "event": "Ignite Hackathon 2025",
+        "title": "Champion - Hackathon",
+        "image": "/images/achievements/ignite.jpg",
+        "aiHint": "team winning hackathon with trophies"
+      },
+      {
+        "event": "FEU Create & Conquer Hackathon 2025",
+        "title": "Champion - Hackathon",
+        "image": "/images/achievements/feu.jpg",
+        "aiHint": "hackathon champions group photo"
+      },
+      {
+        "event": "Google Developers Group Hackathon",
+        "title": "1st Runner Up - Hackathon",
+        "image": "/images/achievements/gdg.jpg",
+        "aiHint": "gdg hackathon award ceremony"
+      },
+      {
+        "event": "Quest for Excellence 2024",
+        "title": "Director's Cup - Overall Champion",
+        "image": "/images/achievements/dcup.jpg",
+        "aiHint": "director's cup award photo"
+      }
+    ]
+  },
+  "editingInstructions": {
+    "sectionTitle": "Main heading (e.g., 'Achievements', 'Awards', 'Recognition')",
+    "sectionSubtitle": "Small text above title (e.g., 'Highlights', 'Our Pride')",
+    "sectionDescription": "Brief description of what achievements represent for your organization",
+    "buttonText": "Text for the button (e.g., 'See More', 'View All', 'Learn More')",
+    "buttonLink": "Link for the button (e.g., '/about', '/achievements')",
+    "achievements": "Array of achievements to display (recommended 4-6 items)",
+    "event": "Name of the competition/event where achievement was earned",
+    "title": "The specific award or recognition received",
+    "image": "Path to achievement image (photos, certificates, trophies)",
+    "aiHint": "Description for AI image generation",
+    "enabled": "Set to false to hide this entire section"
+  }
+}

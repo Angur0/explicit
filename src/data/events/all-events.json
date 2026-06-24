@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "title": "Beyond Data: The Strategic Role of Database in Modern Business",
+      "date": "2024-06-27",
+      "description": "A deep dive into how modern databases drive strategy and operations across industries.",
+      "image": "/images/events/2023-2024/beyond-the-data.webp",
+      "tags": ["Seminar", "Database", "Business"],
+      "status": "past"
+    },
+    {
+      "title": "IT WEEK 2024 Techfrontiers: Forging Tomorrow's IT Leaders with Pioneering Proficiency",
+      "date": "2024-02-29",
+      "description": "Multi-day IT Week (Feb 29–Mar 2, 2024) featuring talks, competitions, and hands-on activities.",
+      "image": "/images/events/2023-2024/it-week.webp",
+      "tags": ["IT Week", "Talks", "Competitions", "Workshops"],
+      "status": "past"
+    },
+    {
+      "title": "Freshmen Orientation 2023",
+      "date": "2023-09-25",
+      "description": "Welcoming the new batch of students and introducing campus organizations and programs.",
+      "image": "/images/events/2023-2024/freshmen-orientation.webp",
+      "tags": ["Orientation", "Student Life"],
+      "status": "past"
+    },
+    {
+      "title": "General Assembly 2023",
+      "date": "2023-10-19",
+      "description": "Kickoff assembly for the academic year with org updates and community building.",
+      "image": "/images/events/2023-2024/general-assembly.webp",
+      "tags": ["Assembly", "Community", "Updates"],
+      "status": "past"
+    },
+    {
+      "title": "IT Skills Olympics 2023",
+      "date": "2023-11-24",
+      "description": "Competitive showcase of student technical skills across various IT domains.",
+      "image": "/images/events/2023-2024/it-skills.webp",
+      "tags": ["Competition", "Skills", "Programming"],
+      "status": "past"
+    },
+    {
+      "title": "Funday 2023",
+      "date": "2023-11-28",
+      "description": "Community day with games and activities to foster camaraderie.",
+      "image": "/images/events/2023-2024/funday.webp",
+      "tags": ["Community", "Games", "Social"],
+      "status": "past"
+    },
+    {
+      "title": "Q4E 2023",
+      "date": "2023-12-20",
+      "description": "Quest for Excellence 2023 highlights and competitions.",
+      "image": "/images/events/2023-2024/q4e.webp",
+      "tags": ["Q4E", "Competitions", "Campus"],
+      "status": "past"
+    },
+    {
+      "title": "Strategic Innovation: Combining Project Management  Excellence with Creative System Design",
+      "date": "2024-06-26",
+      "description": "Exploring how project management excellence meets creative system design to deliver innovation.",
+      "image": "/images/events/2023-2024/beyond-the-data.webp",
+      "tags": ["Seminar", "Project Management", "System Design"],
+      "status": "past"
+    },
+    {
+      "title": "THE 55TH SHELL NATIONAL STUDENTS’ ART COMPETITION 2023 (NSAC)",
+      "date": "2023-06-01",
+      "description": "National art competition (Jun 1 – Sep 30, 2023) celebrating student creativity across categories.",
+      "image": "/images/events/general-assembly.webp",
+      "tags": ["Competition", "Art", "National"],
+      "status": "past"
+    }
+  ]
+}
