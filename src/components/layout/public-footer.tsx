@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
-import { DiscordIcon, FacebookIcon } from "@/components/icons";
 import { Calendar, Info } from "lucide-react";
+import { FaDiscord, FaEnvelope, FaFacebookSquare } from "react-icons/fa";
 
 export function PublicFooter() {
   const pathname = usePathname();
@@ -37,8 +37,22 @@ export function PublicFooter() {
   } as const;
 
   const socialLinks = [
-    { name: "Facebook", icon: <FacebookIcon className="h-5 w-5" />, href: "#" },
-    { name: "Discord", icon: <DiscordIcon className="h-5 w-5" />, href: "#" },
+    {
+      name: "Facebook",
+      icon: <FaFacebookSquare className="h-5 w-5" />,
+      href: "https://www.facebook.com/explicitpupspc",
+    },
+    {
+      name: "Email",
+      icon: <FaEnvelope className="h-5 w-5" />,
+      href: "mailto:explicitpupspc@gmail.com",
+    },
+    {
+      name: "Discord",
+      icon: <FaDiscord className="h-5 w-5" />,
+      href: null,
+      disabled: true,
+    },
   ] as const;
 
   const year = new Date().getFullYear();
@@ -73,16 +87,27 @@ export function PublicFooter() {
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-200 hover:text-white transition-colors"
-                  aria-label={social.name}
-                >
-                  {social.icon}
-                </a>
+                social.href ? (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    target={social.href.startsWith("http") ? "_blank" : undefined}
+                    rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                    className="text-blue-200 hover:text-white transition-colors"
+                    aria-label={social.name}
+                  >
+                    {social.icon}
+                  </a>
+                ) : (
+                  <span
+                    key={social.name}
+                    className="text-blue-200/50 cursor-default"
+                    aria-label={`${social.name} coming soon`}
+                    title={`${social.name} invite coming soon`}
+                  >
+                    {social.icon}
+                  </span>
+                )
               ))}
             </div>
 
