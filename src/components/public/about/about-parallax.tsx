@@ -174,6 +174,7 @@ export function AboutParallax() {
                             { year: 2010, title: 'Transition to EXPLICIT', desc: 'SPECS transitions into EXPLICIT — Explorers in Communication and Information Technology.' },
                             { year: 2024, title: 'Fifth Directors’ Cup', desc: 'EXPLICIT proudly claims its fifth Directors’ Cup, marking years of excellence.' },
                             { year: 2025, title: 'Website Launched', desc: 'The official EXPLICIT website goes live to showcase initiatives, events, and community.' },
+                            { year: 2025, title: 'Back-to-Back Directors Cup', desc: 'EXPLICIT secures another overall championship at Quest for Excellence, celebrating a back-to-back Directors Cup run.' },
                         ];
 
                         return (
