@@ -191,6 +191,253 @@
   ],
   "events": [
     {
+      "title": "Push2Prod",
+      "date": "2026-06-14",
+      "description": "An event held in partnership with DEVCON Manila for EXPLICIT members.",
+      "image": "/images/events/2025-2026/push2prod-2026.png",
+      "aiHint": "students attending developer community event",
+      "tags": [
+        "DEVCON",
+        "Technology",
+        "Community"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "I.T FEST 2026",
+      "date": "2026-06-04",
+      "description": "A unified event for BSIT students featuring leadership talks, collaborative activities, team building, and a LinkedIn sharing event.",
+      "image": "/images/events/2025-2026/it-fest-2026.jpg",
+      "aiHint": "students at information technology festival",
+      "tags": [
+        "IT Fest",
+        "Leadership",
+        "Team Building"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "FUNDAY 2026",
+      "date": "2026-05-28",
+      "description": "EXPLICITLY AWAKE CAFE brought BSIT students together for a fun community celebration.",
+      "image": "/images/events/2025-2026/funday-2026.jpg",
+      "aiHint": "students enjoying campus fun day",
+      "tags": [
+        "Funday",
+        "Community",
+        "Student Life"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "SiKAPtala Hackathon Competition",
+      "date": "2026-05-11",
+      "description": "Organized by DLSU-D CICSSG, this hackathon showcased technical excellence and future-ready technology solutions.",
+      "image": "/images/events/2025-2026/sikaptala-hackathon-competition-2026.png",
+      "aiHint": "students presenting hackathon project",
+      "tags": [
+        "Hackathon",
+        "Competition",
+        "Innovation"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Public Research Presentation 2026",
+      "date": "2026-04-17",
+      "description": "BSIT fourth-year students presented their capstone projects during the public research presentation.",
+      "image": "/images/events/2025-2026/public-research-presentation-2026.png",
+      "aiHint": "students presenting research projects",
+      "tags": [
+        "Research",
+        "Capstone",
+        "Presentation"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "JuanaFlix: A Short Film Festival",
+      "date": "2026-03-31",
+      "description": "The EXPLICIT JuanaFlix team joined BARGADA'S film-making competition and earned awards for Best Film Poster, Best Film Editing, and 2nd Best Film.",
+      "image": "/images/events/2025-2026/juanaflix-short-film-festival-2026.jpg",
+      "aiHint": "students at short film festival",
+      "tags": [
+        "Film Festival",
+        "Competition",
+        "Awards"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "CodeSpark 2026",
+      "date": "2026-03-19",
+      "description": "A seminar and solutions-building event focused on creating a better, smarter, and safer future through technology.",
+      "image": "/images/events/2025-2026/codespark-2026.jpg",
+      "aiHint": "students collaborating at coding seminar",
+      "tags": [
+        "Seminar",
+        "Coding",
+        "Innovation"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Code & Canvas 2026",
+      "date": "2026-03-09",
+      "description": "Explicitly Her: Celebrating Women in Tech, a website creation event held in celebration of Women's Month.",
+      "image": "/images/events/2025-2026/code-and-canvas-2026.jpg",
+      "aiHint": "women in tech website creation event",
+      "tags": [
+        "Women in Tech",
+        "Web Design",
+        "Workshop"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "CYBERSAFE Seminar",
+      "date": "2026-01-31",
+      "description": "A seminar on data privacy and security organized by BSIT 4-1.",
+      "image": "/images/events/2025-2026/cybersafe-seminar-2026.jpg",
+      "aiHint": "students attending cybersecurity seminar",
+      "tags": [
+        "Cybersecurity",
+        "Data Privacy",
+        "Seminar"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Myth Smashers Nuclear Science Competition Finals!",
+      "date": "2025-12-11",
+      "description": "EXPLICIT members won the Myth Smashers Nuclear Science Competition Finals.",
+      "image": "/images/events/2025-2026/myth-smashers-finals-2025.jpg",
+      "aiHint": "students celebrating science competition win",
+      "tags": [
+        "Competition",
+        "Science",
+        "Award"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "The Hack the Flood: Digital Rights Hackathon",
+      "date": "2025-12-06",
+      "description": "EXPLICIT Explorers joined as student innovators developing tech-driven solutions in service of the Filipino people.",
+      "image": "/images/events/2025-2026/hack-the-flood-digital-rights-hackathon-2025.jpg",
+      "aiHint": "students competing in digital rights hackathon",
+      "tags": [
+        "Hackathon",
+        "Digital Rights",
+        "Innovation"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "14th Q4E - Back to Back in Directors Cup",
+      "date": "2025-12-06",
+      "description": "EXPLICIT celebrated an overall championship and the 14th Quest for Excellence 2025 Directors Cup achievement.",
+      "image": "/images/events/2025-2026/q4e-directors-cup-2025.png",
+      "aiHint": "students celebrating directors cup championship",
+      "tags": [
+        "Q4E",
+        "Directors Cup",
+        "Award"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Myth Smashers Nuclear Science Competition Initial Pitching",
+      "date": "2025-11-25",
+      "description": "Members presented an innovation debunking myths and facts about nuclear science, received a cash assistance award, and advanced to the finals.",
+      "image": "/images/events/2025-2026/myth-smashers-initial-pitching-2025.jpg",
+      "aiHint": "students pitching science innovation",
+      "tags": [
+        "Competition",
+        "Science",
+        "Pitching"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "14th IT Skills Olympics",
+      "date": "2025-11-21",
+      "description": "EXPLICIT IT students competed at the 14th IT Skills Olympics at the University of Makati.",
+      "image": "/images/events/2025-2026/it-skills-olympics-2025.jpg",
+      "aiHint": "students competing in information technology skills olympics",
+      "tags": [
+        "Competition",
+        "Skills",
+        "IT"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "5th PUP Research Pitching Competition",
+      "date": "2025-11-07",
+      "description": "BSIT fourth-year students from PUP San Pedro placed 3rd at the university-wide research pitching competition.",
+      "image": "/images/events/2025-2026/pup-research-pitching-competition-2025.jpg",
+      "aiHint": "students presenting research pitch",
+      "tags": [
+        "Research",
+        "Pitching",
+        "Competition"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Graduation Tribute - Batch Liwayway (Graduates of 2025)",
+      "date": "2025-10-18",
+      "description": "A congratulatory tribute to the 2024-2025 graduating batch, Batch Liwayway.",
+      "image": "/images/events/2025-2026/graduation-tribute-batch-liwayway-2025.jpg",
+      "aiHint": "graduating students tribute event",
+      "tags": [
+        "Graduation",
+        "Tribute",
+        "Batch Liwayway"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "2025 Freshmen Orientation",
+      "date": "2025-09-09",
+      "description": "An orientation welcoming the newest batch of BSIT students and newly elected class officers.",
+      "image": "/images/events/2025-2026/freshmen-orientation-2025.jpg",
+      "aiHint": "freshmen students orientation",
+      "tags": [
+        "Orientation",
+        "Freshmen",
+        "Student Life"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Bayanihan para sa Sintang Paaralan 2025",
+      "date": "2025-08-20",
+      "description": "A community clean-up and school facilities preparation activity ahead of the new school year.",
+      "image": "/images/events/2025-2026/bayanihan-sintang-paaralan-2025.jpg",
+      "aiHint": "students participating in campus clean up",
+      "tags": [
+        "Community",
+        "Volunteer",
+        "Campus"
+      ],
+      "status": "past"
+    },
+    {
+      "title": "Champion of the Ignite Hackathon 2025",
+      "date": "2025-08-12",
+      "description": "Team EXPLICIT clinched the championship at Ignite Hackathon 2025 with SikhAI, an inclusive mobile app for Santa Rosa residents.",
+      "image": "/images/events/2025-2026/ignite-hackathon-2025.jpg",
+      "aiHint": "students winning hackathon championship",
+      "tags": [
+        "Hackathon",
+        "Champion",
+        "Innovation"
+      ],
+      "status": "past"
+    },
+    {
       "title": "Beyond Data: The Strategic Role of Database in Modern Business",
       "date": "2024-06-27",
       "description": "A deep dive into how modern databases drive strategy and operations across industries.",
