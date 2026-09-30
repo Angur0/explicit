@@ -2,6 +2,8 @@
 
 Official website for **EXPLICIT — Explorers in Communication and Information Technology**.
 
+This webpage was pioneered and first started by **Kent Garcia**.
+
 This project is built with Next.js App Router, TypeScript, Tailwind CSS, and static JSON content stored in `src/data/**`.
 
 ## Local Development

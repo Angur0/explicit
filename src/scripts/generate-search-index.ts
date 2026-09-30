@@ -7,7 +7,7 @@ import {
   loadAchievements,
 } from "@/lib/search-loaders";
 
-function writeJSON(p: string, data: any) {
+function writeJSON(p: string, data: unknown) {
   fs.mkdirSync(path.dirname(p), { recursive: true });
   fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf-8");
 }

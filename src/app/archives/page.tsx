@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -15,7 +14,6 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import awardsData from '@/data/archives/awards.json';
 import creditsData from '@/data/archives/credits.json';
 import allArticles from '@/data/news/articles.json';
-import achievementsFeatured from '@/data/achievements/featured.json';
 import achievementsTimeline from '@/data/achievements/timeline.json';
 import { officerBatches as allOfficerBatches } from '@/data/officers';
 
@@ -28,10 +26,37 @@ type Award = {
     aiHint?: string;
 };
 
+type TimelineYear = {
+    year: string;
+    items: {
+        title: string;
+        date?: string;
+        description?: string;
+        links?: LinkItem[];
+    }[];
+};
+
+type Officer = {
+    name: string;
+    position: string;
+    image?: string;
+};
+
+type LinkItem = {
+    label: string;
+    url: string;
+};
+
+type CreditPerson = {
+    name: string;
+    role: string;
+    image?: string;
+    links?: LinkItem[];
+};
+
 export default function ArchivesPage() {
     const awards: Award[] = awardsData.awards || [];
-    const achievements = achievementsFeatured.achievementsSection?.achievements ?? [];
-    const timeline = (achievementsTimeline.years ?? []) as { year: string; items: { title: string; date?: string; description?: string; links?: { label: string; url: string }[] }[] }[];
+    const timeline = (achievementsTimeline.years ?? []) as TimelineYear[];
 
     // Group awards by year for Hall of Fame
     const awardsByYear = awards.reduce((acc, a) => {
@@ -69,13 +94,11 @@ export default function ArchivesPage() {
         }
     }, [active]);
 
-    // Keep officer batches up-to-date with the latest data
-    const officerBatches = allOfficerBatches;
     const batchesToShow = (allOfficerBatches || []).filter(b => Array.isArray(b.items) && b.items.length > 0);
     const latestBatch = batchesToShow[0];
     const [selectedYear, setSelectedYear] = useState<string>(latestBatch?.label ?? '');
     const currentBatch = batchesToShow.find((b) => b.label === selectedYear) ?? latestBatch;
-    const currentItems = (currentBatch?.items ?? []).filter((o: any) => o?.name && o?.position);
+    const currentItems = (currentBatch?.items ?? []).filter((o: unknown): o is Officer => Boolean((o as Officer)?.name && (o as Officer)?.position));
 
     return (
         <div className="container py-12 md:py-20">
@@ -248,7 +271,7 @@ export default function ArchivesPage() {
                                     </div>
                                     {latestBatch ? (
                                         <ul className="space-y-1.5">
-                                            {currentItems.map((o: any, i: number) => (
+                                            {currentItems.map((o, i) => (
                                                 <li key={`${currentBatch?.label}-${i}`} className="px-2 py-1.5">
                                                     <div className="flex flex-wrap items-center gap-2">
                                                         <Badge variant="secondary" className="shrink-0">{o.position}</Badge>
@@ -321,7 +344,7 @@ export default function ArchivesPage() {
                                             <div className="font-medium">{creditsData.creator.name}</div>
                                             <div className="text-sm text-muted-foreground">{creditsData.creator.role}</div>
                                             <div className="mt-1 flex flex-wrap gap-2 text-sm">
-                                                {creditsData.creator.links?.map((l: any, i: number) => (
+                                                {creditsData.creator.links?.map((l: LinkItem, i: number) => (
                                                     <Button key={i} asChild size="sm" variant="link" className="h-auto p-0">
                                                         <a href={l.url} target="_blank" rel="noreferrer">{l.label}</a>
                                                     </Button>
@@ -338,7 +361,7 @@ export default function ArchivesPage() {
                                     </CardHeader>
                                     <CardContent>
                                         <div className="grid gap-4 sm:grid-cols-2">
-                                            {creditsData.futureMaintainers?.map((p: any, idx: number) => (
+                                            {creditsData.futureMaintainers?.map((p: CreditPerson, idx: number) => (
                                                 <div key={idx} className="flex items-center gap-4">
                                                     <Avatar className="h-12 w-12">
                                                         <AvatarImage src={p.image} alt={p.name} />
@@ -348,7 +371,7 @@ export default function ArchivesPage() {
                                                         <div className="font-medium">{p.name}</div>
                                                         <div className="text-sm text-muted-foreground">{p.role}</div>
                                                         <div className="mt-1 flex flex-wrap gap-2 text-sm">
-                                                            {p.links?.map((l: any, i: number) => (
+                                                            {p.links?.map((l: LinkItem, i: number) => (
                                                                 <Button key={i} asChild size="sm" variant="link" className="h-auto p-0">
                                                                     <a href={l.url} target="_blank" rel="noreferrer">{l.label}</a>
                                                                 </Button>
@@ -368,7 +391,7 @@ export default function ArchivesPage() {
                                     </CardHeader>
                                     <CardContent>
                                         <div className="grid gap-4 sm:grid-cols-2">
-                                            {creditsData.contributors?.map((p: any, idx: number) => (
+                                            {creditsData.contributors?.map((p: CreditPerson, idx: number) => (
                                                 <div key={idx} className="flex items-center gap-4">
                                                     <Avatar className="h-12 w-12">
                                                         <AvatarImage src={p.image} alt={p.name} />
@@ -378,7 +401,7 @@ export default function ArchivesPage() {
                                                         <div className="font-medium">{p.name}</div>
                                                         <div className="text-sm text-muted-foreground">{p.role}</div>
                                                         <div className="mt-1 flex flex-wrap gap-2 text-sm">
-                                                            {p.links?.map((l: any, i: number) => (
+                                                            {p.links?.map((l: LinkItem, i: number) => (
                                                                 <Button key={i} asChild size="sm" variant="link" className="h-auto p-0">
                                                                     <a href={l.url} target="_blank" rel="noreferrer">{l.label}</a>
                                                                 </Button>

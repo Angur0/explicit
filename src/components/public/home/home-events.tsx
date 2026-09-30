@@ -1,5 +1,5 @@
 "use client";
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import { CardContent, CardDescription, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -31,16 +31,14 @@ interface EventHighlightsData {
 export default function HomeEvents() {
   const data: EventHighlightsData = eventHighlightsData;
   const { eventHighlights } = data;
+  const sectionRef = React.useRef<HTMLDivElement | null>(null);
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start end", "end start"] });
+  const [active, setActive] = React.useState<EventHighlight | null>(null);
 
   // Don't render if section is disabled
   if (!eventHighlights || !eventHighlights.enabled) {
     return null;
   }
-
-  const sectionRef = React.useRef<HTMLDivElement | null>(null);
-  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start end", "end start"] });
-
-  const [active, setActive] = React.useState<EventHighlight | null>(null);
 
   return (
     <section id="events" ref={sectionRef} className="py-32 md:py-40 bg-slate-50 dark:bg-[#0F172A] relative">

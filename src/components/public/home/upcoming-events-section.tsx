@@ -40,7 +40,7 @@ export function UpcomingEventsSection() {
             <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Upcoming Events</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Join us for our upcoming events. Don't miss out on these great opportunities.
+                    Join us for our upcoming events. Don&apos;t miss out on these great opportunities.
                 </p>
             </div>
         </div>

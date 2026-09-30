@@ -12,12 +12,6 @@ import { motion } from "framer-motion";
 import { getVariant, transitionSpringSoft } from "@/lib/motion";
 import carouselImagesData from "@/data/carousel/images.json";
 
-interface CarouselImage {
-  src: string;
-  alt: string;
-  aiHint: string;
-}
-
 // Entrance animations removed — component renders statically
 
 export function HomeHero() {

@@ -23,10 +23,9 @@ interface Photo {
 
 export function HomeFeaturedPhotos() {
   const photos: Photo[] = featuredPhotosData.photos ?? [];
+  const [active, setActive] = React.useState<Photo | null>(null);
 
   if (!photos.length) return null;
-
-  const [active, setActive] = React.useState<Photo | null>(null);
 
   return (
     <section className="relative pt-12 md:pt-24 pb-24 md:pb-36 overflow-hidden">

@@ -1,10 +1,6 @@
-import type { ReactNode } from "react";
 import EventsArchive from "@/components/public/events/events-archive-client";
 import EventsOrganizationsIntro from "@/components/public/events/events-organizations-intro";
 import EventsSeparator from "@/components/public/events/events-separator";
-import AnimatedSection from "@/components/animated-section";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Users, Lightbulb, Trophy, Wrench } from "lucide-react";
 import allEventsData from "@/data/events/all-events.json";
 
 interface Event {

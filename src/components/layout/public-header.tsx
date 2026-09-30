@@ -8,7 +8,6 @@ import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { Menu } from "lucide-react";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { useToast } from "@/hooks/use-toast";
 
 const leftNavLinks = [
   { href: "/", label: "Home" },
@@ -22,7 +21,6 @@ const rightNavLinks = [
 
 export function PublicHeader() {
   const pathname = usePathname();
-  const { toast } = useToast();
 
   if (pathname.startsWith("/dashboard")) {
     return null;

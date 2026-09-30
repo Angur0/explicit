@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 type PageIndex = {
@@ -28,6 +28,7 @@ type Article = {
     date: string;
     author?: string;
     excerpt?: string;
+    content?: string;
 };
 
 type Event = {
@@ -87,8 +88,8 @@ export function SearchClient() {
                 if (!res.ok) throw new Error(`Request failed: ${res.status}`);
                 const json = (await res.json()) as SearchIndex;
                 if (!ignore) setIndex(json);
-            } catch (e: any) {
-                if (!ignore) setError(e?.message || 'Failed to search');
+            } catch (e: unknown) {
+                if (!ignore) setError(e instanceof Error ? e.message : 'Failed to search');
             } finally {
                 if (!ignore) setLoading(false);
             }
@@ -143,7 +144,7 @@ export function SearchClient() {
         (s) => includes(s.title, q) || includes(s.description, q) || (s.keywords || []).some((k) => includes(k, q))
     );
     const newsResults = (index?.news || []).filter(
-        (a) => includes(a.title, q) || includes(a.excerpt, q) || includes((a as any).content, q) || includes(a.author, q)
+        (a) => includes(a.title, q) || includes(a.excerpt, q) || includes(a.content, q) || includes(a.author, q)
     );
     const eventsResults = (index?.events || []).filter(
         (e) => includes(e.title, q) || includes(e.description, q) || (e.tags || []).some((t) => includes(t, q))
@@ -167,7 +168,7 @@ export function SearchClient() {
         <div className="container py-12 md:py-20">
             <div className="mb-8">
                 <h1 className="text-3xl md:text-4xl font-bold tracking-tight font-headline">Search Results</h1>
-                <p className="text-muted-foreground mt-2">{total} result{total === 1 ? '' : 's'} for "{q}"</p>
+                <p className="text-muted-foreground mt-2">{total} result{total === 1 ? '' : 's'} for &quot;{q}&quot;</p>
             </div>
 
             {total === 0 && (
@@ -183,7 +184,7 @@ export function SearchClient() {
                 <section className="mb-10">
                     <h2 className="text-2xl font-semibold font-headline mb-4">Pages & Sections</h2>
                     <ul className="space-y-3">
-                        {[...pagesResults, ...sectionsResults].map((item: any, idx: number) => (
+                        {[...pagesResults, ...sectionsResults].map((item, idx) => (
                             <li key={`p-${idx}`} className="rounded-lg border p-4 hover:bg-accent/10 transition-colors">
                                 <Link href={item.url} className="block">
                                     <div className="text-lg font-medium">{item.title}</div>

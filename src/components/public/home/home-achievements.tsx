@@ -29,14 +29,13 @@ interface AchievementsData {
 export function HomeAchievements() {
   const data: AchievementsData = achievementsData;
   const { achievementsSection } = data;
+  const sectionRef = React.useRef<HTMLDivElement | null>(null);
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start end", "end start"] });
 
   // Don't render if section is disabled
   if (!achievementsSection || !achievementsSection.enabled) {
     return null;
   }
-
-  const sectionRef = React.useRef<HTMLDivElement | null>(null);
-  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start end", "end start"] });
 
   return (
     <section ref={sectionRef} className="py-24 bg-[#0A1931] text-primary-foreground overflow-hidden">

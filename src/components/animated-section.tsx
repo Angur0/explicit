@@ -30,7 +30,7 @@ export default function AnimatedSection({
     animateChildrenOnly,
     id,
 }: AnimatedSectionProps) {
-    const Component: any = motion[as as keyof typeof motion] ?? motion.section;
+    const Component = (motion[as as keyof typeof motion] ?? motion.section) as React.ElementType;
 
     const variants: Variants =
         typeof variant === "string"

@@ -3,7 +3,7 @@ import path from "node:path";
 
 function readJsonFiles(dirRel: string) {
   const dir = path.join(process.cwd(), dirRel);
-  if (!fs.existsSync(dir)) return [] as any[];
+  if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
   return files.map((f) => {
     const p = path.join(dir, f);
